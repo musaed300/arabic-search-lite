@@ -19,10 +19,18 @@ What it does: removes diacritics (tashkeel) and tatweel, turns أ إ آ ٱ into 
 
 ## Install · التثبيت
 
+From the GitHub release (PyPI and npm packages are coming soon):
+
+من إصدار GitHub (حزم PyPI وnpm قريبًا):
+
 ```sh
-pip install arabic-search-lite
-npm install arabic-search-lite
+pip install https://github.com/musaed300/arabic-search-lite/releases/download/v1.0.0/arabic_search_lite-1.0.0-py3-none-any.whl
+npm install https://github.com/musaed300/arabic-search-lite/releases/download/v1.0.0/arabic-search-lite-1.0.0.tgz
 ```
+
+Or copy a single file into your project: `python/arabic_search_lite/__init__.py` or `js/index.js`.
+
+أو انسخ ملف واحد لمشروعك: `python/arabic_search_lite/__init__.py` أو `js/index.js`.
 
 ## Use · الاستخدام
 
