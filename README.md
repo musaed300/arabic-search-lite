@@ -81,6 +81,8 @@ This package only normalizes letters. It does not understand words, so:
 
 Try it live on the product page, with any Arabic word: https://dovmem.com/arabic-search#try
 
+Why plain `LIKE` and FTS5 miss Arabic words, with real SQLite results: https://dovmem.com/blog/arabic-search-sqlite
+
 [«بحث عربي ذكي»](https://dovmem.com/arabic-search) يضيف اللي ما في هالحزمة: يلقى الكلمة ورا السوابق الملتصقة، وفيه فهرس SQLite FTS5 جاهز، ومقتطفات تلوّن الكلمة اللي طابقت، وبنفس النتيجة في Swift وPython وJavaScript. جرّبه بأي كلمة عربية في صفحته.
 
 `normalize` here gives exactly the same output as `normalize` in the full library. Both are checked against the same 75 test cases.
