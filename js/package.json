@@ -1,0 +1,25 @@
+{
+  "name": "arabic-search-lite",
+  "version": "1.0.0",
+  "description": "Normalize Arabic text for search: remove diacritics and tatweel, unify alef, yaa, taa marbuta and hamza forms.",
+  "license": "MIT",
+  "author": "dovmem",
+  "homepage": "https://dovmem.com/arabic-search",
+  "keywords": ["arabic", "search", "normalization", "diacritics", "tashkeel"],
+  "engines": { "node": ">=14" },
+  "sideEffects": false,
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "index.mjs", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/normalize.test.js"
+  }
+}
